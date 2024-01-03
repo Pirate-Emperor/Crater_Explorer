@@ -1,38 +1,44 @@
-# Moonshot: Automatic Impact Crater Detection on the Moon
+# Crater Explorer
 
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1dJjw6g_S8s5hMsiZ67Sp9f50NrgZvoTm" align="left" height="300" width="300" ></a>
+## Project Overview
+Project Name: Crater Explorer
+Author: Pirate-Emperor
+Version: 1.0.0
+Release Date: [Insert Release Date]
 
-Impact craters are the most ubiquitous surface feature on rocky
-planetary bodies. Crater number density can be used to estimate the
-age of the surface: the more densely cratered the terrain, the older
-the surface. When independent absolute ages for a surface are
-available for calibration of crater counts, as is the case for some
-lava flows and regions of the Moon, crater density can be used to
-estimate an absolute age of the surface.
 
-Crater detection and counting has traditionally been done by laborious
-manual interrogation of images of a planetary surface taken by
-orbiting spacecraft
-([Robbins and Hynek, 2012](https://doi.org/10.1029/2011JE003966);
-[Robbins, 2019](https://doi.org/10.1029/2018JE00559)). However,
-the size frequency distribution of impact craters is a steep negative
-power-law, implying that there are many small craters for each larger
-one. For example, for each 1-km crater on Mars, there are more than
-a thousand 100-m craters. With the increased fidelity
-of cameras on orbiting spacecraft, the number of craters visible in
-images of remote surfaces has become so large that manual counting is
-unfeasible. Furthermore, manual counting can be time consuming and
-subjective
-([Robbins et al., 2014](https://doi.org/10.1016/j.icarus.2014.02.022)).
-This motivates the need for automated crater detection and counting algorithms ([DeLatte et al., 
-2019](https://doi.org/10.1016/j.asr.2019.07.017)).
+## Description
+Crater Explorer is an innovative project developed by Pirate-Emperor that focuses on automatic Impact Crater Detection on the Moon. This project utilizes advanced image processing and machine learning techniques to analyze lunar images and identify impact craters with high precision.
 
-Recent work has shown that widely used object detection algorithms
-from computer vision, such as the YOLO (You Only Look Once) object
-detection algorithm ([Redmon et al., 2016](https://doi.org/10.1109/CVPR.2016.91);
-[Jocher et al., 2021](https://doi.org/10.5281/zenodo.4418161)), can be effective for crater detection on Mars
-([Benedix et al., 2020](https://doi.org/10.1029/2019EA001005); [Lagain et al., 2021](https://doi.org/10.1029/2020EA001598)) and the Moon ([Fairweather
-et al., 2022](https://doi.org/10.1029/2021EA002177)).
+## Features
+Automatic Crater Detection: Crater Explorer employs state-of-the-art algorithms to automatically detect and outline impact craters in lunar images.
+
+High Precision: The project is designed to achieve high precision in crater detection, minimizing false positives and accurately identifying even subtle crater features.
+
+User-Friendly Interface: The user interface is intuitive and user-friendly, allowing researchers and enthusiasts to explore lunar images and detected craters seamlessly.
+
+Customizable Parameters: Researchers can customize various parameters to fine-tune the crater detection process based on specific research requirements.
+
+Image Annotation: Crater Explorer provides tools for annotating and labeling detected craters, facilitating further analysis and collaboration.
+
+## Installation
+To install Crater Explorer, follow these steps:
+
+Clone the repository: git clone https://github.com/Pirate-Emperor/Crater_Explorer.git
+Navigate to the project directory: cd Crater_Explorer
+Install dependencies: pip install -r requirements.txt
+Run the application: python crater_explorer.py
+Usage
+Launch the application by executing crater_explorer.py.
+Load lunar images into the application.
+Adjust parameters for crater detection if needed.
+Click the "Detect Craters" button to initiate the automatic crater detection process.
+Explore the annotated images and utilize the tools provided for further analysis.
+Contributing
+If you're interested in contributing to Crater Explorer, please follow the guidelines in the CONTRIBUTING.md file.
+
+## License
+This project is licensed under the MIT License.
 
 ## Objective
 The aim of this project is to develop a software tool for
