@@ -4,7 +4,6 @@
 Project Name: Crater Explorer
 Author: Pirate-Emperor
 Version: 1.0.0
-Release Date: [Insert Release Date]
 
 
 ## Description
