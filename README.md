@@ -5,6 +5,11 @@ Project Name: Crater Explorer
 Author: Pirate-Emperor
 Version: 1.0.0
 
+## Screenshots
+![screenshot7](images/super_crater_hazard.png)
+![screenshot8](images/super_crater_mask.png)
+![screenshot9](images/crater_mask.png)
+![screenshot10](images/crater_hazard.png)
 
 ## Description
 Crater Explorer is an innovative project developed by Pirate-Emperor that focuses on automatic Impact Crater Detection on the Moon. This project utilizes advanced image processing and machine learning techniques to analyze lunar images and identify impact craters with high precision.
